@@ -1,0 +1,28 @@
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 1em auto;
+}
+
+.container .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.container .cards a {
+  text-decoration: none;
+}
+
+.container .cards a .card {
+  border: 2px solid black;
+  padding: 0.5em;
+  color: black;
+}
+/*# sourceMappingURL=App.css.map */

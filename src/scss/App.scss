@@ -1,0 +1,22 @@
+.container {
+    max-width: 90%;
+    margin: auto;
+    h1 {
+        text-align: center;
+        margin: 1em auto;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+        a {
+            text-decoration: none;
+            .card {
+                border: 2px solid black;
+                padding: 0.5em;
+                color: black;
+            }
+        }
+    }
+
+}
