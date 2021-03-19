@@ -5,6 +5,7 @@ import axios from 'axios';
 const Home = () => {
     const [posts, setPosts] = useState({ array : [] });
 
+    //get the posts array using axios
     useEffect(() => {
         const fetchPosts = async () => {
             const { data } = await axios (

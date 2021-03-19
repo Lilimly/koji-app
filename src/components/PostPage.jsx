@@ -6,6 +6,7 @@ function PostPage ( { match }) {
     const [post, setPost] = useState({});
     const postId = match.params.id;
 
+    //get the post data using axios
     useEffect(() => {
         const fetchPost = async () => {
             const { data } = await axios (
