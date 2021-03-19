@@ -21,7 +21,6 @@ function PostPage ( { match }) {
             <h1>{post.title}</h1>
             <h2>Post content created by {post.userId}</h2>
             <p>{post.body}</p>
-
             <Link to="/" className="nav-link">
                 Back to all posts
             </Link>

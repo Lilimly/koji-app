@@ -21,8 +21,37 @@
 }
 
 .container .cards a .card {
-  border: 2px solid black;
+  border: 2px solid #fc4961;
+  border-radius: 5px;
   padding: 0.5em;
   color: black;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.container .cards a .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container p {
+  margin: 2em auto;
+}
+
+.container .nav-link {
+  border: 1px solid #fc4961;
+  border-radius: 5px;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.container .nav-link:hover {
+  background-color: #fc4961;
 }
 /*# sourceMappingURL=App.css.map */
